@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-03-30" view-index="1" gantt-divider-location="572" resource-divider-location="300" version="2.8.6" locale="es">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="266" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="144" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="143" order="2"/>
+        <option id="color.recent"><![CDATA[#ffcc33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="48" name="FASE DE ANALISIS" meeting="false" start="2021-02-11" duration="166" complete="0" expand="true">
+            <task id="0" name="presentacion del proyecto" color="#8cb6ce" meeting="false" start="2021-02-11" duration="5" complete="0" thirdDate="2021-02-11" thirdDate-constraint="0" expand="true"/>
+            <task id="1" name="levantamiento de informacion" color="#8cb6ce" meeting="false" start="2021-02-16" duration="5" complete="0" thirdDate="2021-02-16" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="diagrama de procesos" color="#8cb6ce" meeting="false" start="2021-02-21" duration="5" complete="0" thirdDate="2021-02-21" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="formulacion del proyecto" color="#8cb6ce" meeting="false" start="2021-02-26" duration="5" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true"/>
+            <task id="50" name="ieee830" color="#8cb6ce" meeting="false" start="2021-03-03" duration="5" complete="0" thirdDate="2021-03-03" thirdDate-constraint="0" expand="true"/>
+            <task id="51" name="modelo entidad relacion" color="#8cb6ce" meeting="false" start="2021-03-08" duration="5" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="diccionario de datos" color="#8cb6ce" meeting="false" start="2021-03-13" duration="5" complete="0" thirdDate="2021-03-13" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="inventario" color="#8cb6ce" meeting="false" start="2021-07-04" duration="23" complete="0" thirdDate="2021-07-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="53" name="FASE DE PLANEACION" meeting="false" start="2021-03-18" duration="549" complete="0" expand="true">
+            <task id="7" name="diagrama de casos de uso extendido" color="#8cb6ce" meeting="false" start="2021-03-18" duration="5" complete="0" thirdDate="2021-03-18" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="diagrama de casos de uso" color="#8cb6ce" meeting="false" start="2021-03-23" duration="5" complete="0" thirdDate="2021-03-23" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="cronograma de actividades" color="#8cb6ce" meeting="false" start="2021-03-28" duration="5" complete="0" thirdDate="2021-03-28" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="presupuesto y personal" color="#8cb6ce" meeting="false" start="2021-04-02" duration="5" complete="0" thirdDate="2021-04-02" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="preeliminar inventario" color="#8cb6ce" meeting="false" start="2021-04-07" duration="4" complete="0" thirdDate="2021-04-07" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="wireframe o mockups" color="#8cb6ce" meeting="false" start="2021-04-15" duration="20" complete="0" thirdDate="2021-04-15" thirdDate-constraint="0" expand="true"/>
+            <task id="103" name="diagrama de clases" color="#8cb6ce" meeting="false" start="2021-05-05" duration="20" complete="0" thirdDate="2021-05-04" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="modelo relacional" color="#8cb6ce" meeting="false" start="2021-05-25" duration="20" complete="0" thirdDate="2021-05-23" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="diagrama de distribucion" color="#8cb6ce" meeting="false" start="2021-06-14" duration="20" complete="0" thirdDate="2021-06-11" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="informe de costos" color="#8cb6ce" meeting="false" start="2021-07-27" duration="23" complete="0" thirdDate="2021-04-02" thirdDate-constraint="0" expand="true"/>
+            <task id="66" name="cuadro comparativo proveedores" color="#8cb6ce" meeting="false" start="2022-04-27" duration="23" complete="0" thirdDate="2022-04-27" thirdDate-constraint="0" expand="true"/>
+            <task id="67" name="modelo de calidad software" color="#8cb6ce" meeting="false" start="2022-08-30" duration="19" complete="0" thirdDate="2022-08-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="15" name="FASE DE EJECUCION" meeting="false" start="2021-08-19" duration="376" complete="0" expand="true">
+            <task id="62" name="base de datos - DDL" color="#8cb6ce" meeting="false" start="2021-08-19" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="base de datos - DML" color="#8cb6ce" meeting="false" start="2021-09-11" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="64" name="prototipo no funcional" color="#8cb6ce" meeting="false" start="2021-10-04" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="68" name="manual de usuario final" color="#8cb6ce" meeting="false" start="2022-07-23" duration="19" complete="0" thirdDate="2022-07-23" thirdDate-constraint="0" expand="true"/>
+            <task id="69" name="manual de operacion final" color="#8cb6ce" meeting="false" start="2022-08-11" duration="19" complete="0" thirdDate="2022-08-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="FASE DE EVALUACION" meeting="false" start="2021-10-27" duration="342" complete="0" expand="true">
+            <task id="28" name="manual tecnico" color="#8cb6ce" meeting="false" start="2021-10-27" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="planeacion pruebas software" color="#8cb6ce" meeting="false" start="2021-11-19" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="local app -S.I" color="#8cb6ce" meeting="false" start="2021-12-12" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="plan de instalacion" color="#8cb6ce" meeting="false" start="2022-01-04" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="plan de respaldo" color="#8cb6ce" meeting="false" start="2022-01-17" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="plan de migracion datos" color="#8cb6ce" meeting="false" start="2022-01-30" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="manual de usuario" color="#8cb6ce" meeting="false" start="2022-02-12" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="35" name="manual de operacion" color="#8cb6ce" meeting="false" start="2022-02-25" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="36" name="documentacion pruebas software" color="#8cb6ce" meeting="false" start="2022-03-10" duration="13" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="despliegue app -S.I. 1er" color="#8cb6ce" meeting="false" start="2022-03-23" duration="12" complete="0" thirdDate="2022-03-23" thirdDate-constraint="0" expand="true"/>
+            <task id="38" name="informe de distribucion" color="#8cb6ce" meeting="false" start="2022-04-04" duration="23" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="contratos de software" color="#8cb6ce" meeting="false" start="2022-05-20" duration="23" complete="0" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="despliegue app -S.I. 2do" color="#8cb6ce" meeting="false" start="2022-06-12" duration="22" complete="0" thirdDate="2022-06-12" thirdDate-constraint="0" expand="true"/>
+            <task id="43" name="cronograma de actividades final" color="#8cb6ce" meeting="false" start="2022-07-04" duration="19" complete="0" thirdDate="2021-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="despliegue app S.I. final" color="#8cb6ce" meeting="false" start="2022-09-18" duration="16" complete="0" thirdDate="2022-09-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="desarrollador y analista A" function="SoftwareDevelopment:2" contacts="" phone="">
+            <rate name="standard" value="3700"/>
+        </resource>
+        <resource id="1" name="desarrollador y analista J" function="SoftwareDevelopment:2" contacts="" phone="">
+            <rate name="standard" value="3700"/>
+        </resource>
+        <resource id="2" name="desarrollador y analista E" function="SoftwareDevelopment:2" contacts="" phone="">
+            <rate name="standard" value="3700"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="52" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
